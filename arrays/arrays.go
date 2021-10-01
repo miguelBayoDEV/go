@@ -13,6 +13,7 @@ func main() {
 
 	fmt.Println(names)
 	// Longitud del array útil en los bucles
+	// Longitud de array fija al iniciarla
 	fmt.Println(len(names))
 
 	for i := 0; i < len(names); i++ {
