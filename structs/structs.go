@@ -14,7 +14,8 @@ func (usuario User) nombreCompleto() string {
 	return usuario.name + " " + usuario.lastName
 }
 
-// Para hacer un setter y que modifique el valor de una propiedad de struct se usa el puntero sino haría una copia
+// Para hacer un setter y que modifique el valor de una propiedad de struct se usa el puntero sino haría una copia. Esto no se haría
+// Si se importa struct no se podría realizar nuevos métodos
 func (this User) set_name(n string) {
 	this.name = n
 }
